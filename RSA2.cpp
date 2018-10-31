@@ -24,7 +24,7 @@ int main()
 			break;
 		}
 	}
-	fprintf(F1, "p-1q-1:%s\n", mo_pq);
+	fprintf(F1, "(p-1)(q-1):%s\n", mo_pq);
 	strcpy(d, inver(e, mo_pq));
 	if (strcmp(d, "0") == 0) printf("Error");
 	else fprintf(F1, "d:%s \n", d);
